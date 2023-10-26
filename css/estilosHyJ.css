@@ -1,0 +1,26 @@
+h1{
+    font-size: 40px;
+    color:blueviolet;
+    font-family: 'Open Sans';
+    text-align: center; 
+}
+button {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  cursor: pointer;
+}
+.linkW {
+  text-decoration: none;
+  color: black;
+}

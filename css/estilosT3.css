@@ -1,0 +1,60 @@
+body {
+  background-color: blanchedalmond;
+}
+
+
+
+table,
+tr,
+td,
+th {
+
+  padding: 5px;
+  background-color: coral;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+
+}
+
+div {
+  color: white;
+  overflow: auto;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 50px;
+
+}
+
+.titulos {
+  text-decoration: underline;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.linkW {
+  text-decoration: none;
+  color: black;
+}

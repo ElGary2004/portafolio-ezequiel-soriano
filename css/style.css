@@ -1,0 +1,579 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(/assets/fonts/JosefinSans-VariableFont_wght.ttf);
+  font-display: fallback;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 1em;
+}
+
+body {
+  background-color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+h5 {
+  margin: 20px 0px 20px;
+  font-size: 100px;
+}
+
+h6 {
+  margin: 14px;
+  font-size: 17px;
+
+}
+
+h4 {
+  color: #fcfc;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: .4s;
+
+}
+
+.content {
+  color: white;
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1em;
+}
+
+
+
+.hola {
+  font-size: 2.6em;
+}
+
+.name {
+  font-size: 4em;
+}
+
+.span__Name {
+  color: red;
+}
+
+.estudiante {
+  font-size: 1.6em;
+  margin: 10px;
+  padding: 0 0 10px 0;
+}
+
+.newslatter form {
+  max-width: 460px;
+  position: relative;
+}
+
+.newslatter form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid red;
+  outline: none;
+  border-radius: 30px;
+}
+
+.newslatter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  top: 6px;
+  right: 6px;
+}
+
+.sobre {
+  width: 100%;
+  padding: 100px 0px;
+  background: #1a1a1a;
+}
+
+.sobre img {
+  height: auto;
+  width: 250px;
+}
+
+.sobre-texto {
+  width: 550px;
+}
+
+.main {
+  color: white;
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sobre-texto h1 {
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.sobre-texto h4 {
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.sobre-texto p {
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+
+}
+
+.linkW {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.proyecto {
+  background: #101010;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo h6 {
+  color: white;
+  font-size: 75px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  width: 100%;
+  height: 100%;
+}
+
+.carta {
+  height: 365px;
+  width: 335px;
+  max-width: 400px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 12px;
+  margin: 15px;
+}
+
+.carta i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: red;
+}
+
+h7 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.pra {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.pra h3 {
+  color: white;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+
+.pra p {
+  color: #fcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+
+.carta .button {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.carta .button:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.contacto {
+  width: 100%;
+  height: 290px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacto p {
+  color: white;
+  font-size: 30px;
+  font-style: bold;
+  margin-bottom: 25px;
+}
+
+.skill {
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.skills__Title {
+  text-align: center;
+  color: white;
+  font-size: 46px;
+  margin-bottom: 15px;
+}
+
+.skill li {
+  margin: auto;
+  max-width: 460px;
+  padding: 10px;
+  min-width: 300px;
+}
+
+
+.skill h7 {
+  color: #fcfc;
+  font-size: 23px;
+  margin: 5px;
+
+}
+
+
+
+.bar {
+  background: #282a2e;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.html {
+  width: 55%;
+  animation: html 4s;
+}
+
+.css {
+  width: 50%;
+  animation: css 4s;
+
+}
+
+.php {
+  width: 20%;
+  animation: php 4s;
+}
+
+.javascript {
+  width: 5%;
+  animation: javascript 4s;
+}
+
+.mysql {
+  width: 70%;
+  animation: mysql 4s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes php {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 20%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 5%;
+  }
+}
+
+@keyframes mysql {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+  .hero {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  header {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 1em;
+  }
+
+  ul {
+    <i class="fa-solid fa-bars"></i>width: 100%;
+  }
+
+  .content {
+    color: white;
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1em;
+  }
+
+  .titulo h6 {
+    color: white;
+    font-size: 50px;
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .sobre img {
+    height: auto;
+    margin-bottom: 2em;
+    width: 250px;
+    padding: 1em;
+  }
+}
+
+.sobre-texto {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media only screen and (max-width: 480px) {
+  .sobre-texto h1 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  .sobre-texto p {
+    color: #fcfc;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 13px;
+    margin-bottom: 45px;
+    text-align: center;
+  }
+
+  .sobre-texto {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  .sobre-texto button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacto {
+    text-align: center;
+  }
+
+}
